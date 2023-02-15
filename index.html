@@ -23,14 +23,22 @@
 
 <nav class="__nav d-flex align-items-center">
 
-    <div class="__container-logo-form-icons d-flex">
+    <div class="__container-logo-form-icons d-flex justify-content-between gap-4">
 
-        <img src="img/logo.svg" alt="logo-boolean" class="__logo-desktop px-2 py-2 ">
+        <img src="img/logo.svg" alt="logo-boolean" class="__logo-desktop px-2 py-2 d-none d-sm-none d-md-none d-lg-block ">
+        <img src="img/mobile-logo.png" alt="mobile-logo" class=" __logo-desktop  d-sm-block d-md-block d-lg-none"  >
 
-       
-         <input type="email" placeholder="Prova a cercare: Lezioni di laravel" class="form-control __lezioni-laravel" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="email" placeholder="Prova a cercare: Lezioni di laravel" class="form-control __lezioni-laravel" id="exampleInputEmail1" aria-describedby="emailHelp">
           
-           
+         <div class="d-flex gap-4 align-items-center px-2 py-2">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-question"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i class="fa-solid fa-bell"></i>
+
+
+
+         </div>  
      
 
 
