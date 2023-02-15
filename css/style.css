@@ -55,4 +55,12 @@
     
 }
 
+.fa-question{
+    background-color: darkslategrey;
+    padding: 5px;
+    border-radius: 45%;
+}
 
+.fa-bell{
+    color: #FF8F00;
+}
