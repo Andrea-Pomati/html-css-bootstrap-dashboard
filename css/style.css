@@ -96,3 +96,40 @@
 
 
 
+
+/* media query */
+
+/* media query medium aside */
+
+@media screen and (max-width:991px) and (min-width:568px){
+    .__aside{
+        width: 100px;
+    }
+}
+
+
+
+
+/* media query small aside */
+
+@media screen and (max-width:567px){
+    .__aside{
+        width: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
