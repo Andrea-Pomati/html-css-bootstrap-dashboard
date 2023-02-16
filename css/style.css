@@ -20,7 +20,8 @@
 .__main{
     background-color: #F8F9FA;
     width: 100%;
-
+    height: 837px;
+    overflow: auto;
 }
 
 .__header{
