@@ -100,10 +100,22 @@
 
 /* inizio main */
 
+/* tabella */
 .avatar-img{
     max-width: 20px;
 }
+/* tabella */
 
+/* todo */
+
+.__container-checkbox{
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+
+.form-check{
+    padding-left: 30px;
+}
 
 
 
